@@ -51,8 +51,8 @@ class TestOwlDrawingStyles:
         assert result in _DRAWING["emoji"]
 
     def test_all_styles_have_at_least_one_drawing(self):
-        for styles in _VALID_STYLES:
-            assert len(_DRAWING[topic]) > 0
+        for style in _VALID_STYLES:
+            assert len(_DRAWING[style]) > 0
 
     def test_each_style_returns_drawing_from_correct_pool(self):
         for style in _VALID_STYLES:

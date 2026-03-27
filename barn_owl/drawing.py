@@ -19,7 +19,7 @@ _DRAWING: dict[str, list[str]] = {
    ( o,o )
      /)_)
       “ “""",
-        """(\ __/)
+        r"""(\ __/)
 (O v O)
 (  vwv )
 =w=w==
@@ -252,25 +252,25 @@ _DRAWING: dict[str, list[str]] = {
 
 _VALID_STYLES = set(_DRAWING.keys())
 
-def owl_drawing(style: str = "wise") -> str:
-        """
-        Return a random owl drawing or emoji.
+def owl_drawing(style: str = "cute") -> str:
+    """
+    Return a random owl drawing or emoji.
 
-        Args:
-                style: The drawing style. One of ``"wise"``, ``"cute"``,
-                                ``"spooky"``, ``"funny"``, ``"large"``, ``"duo"``,
-                                or ``"emoji"``.
-                                Defaults to or ``"wise"``.
+    Args:
+        style: The drawing style. One of ``"wise"``, ``"cute"``,
+            ``"spooky"``, ``"funny"``, ``"large"``, ``"duo"``,
+            or ``"emoji"``.
+            Defaults to or ``"cute"``.
 
-        Returns:
-                A string containing an owl drawing made of ASCII art or emoji.
-                        
-        Raises:
-                ValueError: If *style* is not recognised.
-        """
-        if style not in _VALID_STYLES:
-                raise ValueError(
-                        f"Unknown style: {style!r}."
-                        f"Choose from: {sorted(_VALID_STYLES)}"
-                )
-        return random.choice(_DRAWING[style])
+    Returns:
+        A string containing an owl drawing made of ASCII art or emoji.
+                    
+    Raises:
+        ValueError: If *style* is not recognised.
+    """
+    if style not in _VALID_STYLES:
+        raise ValueError(
+            f"Unknown style: {style!r}."
+            f"Choose from: {sorted(_VALID_STYLES)}"
+        )
+    return random.choice(_DRAWING[style])
