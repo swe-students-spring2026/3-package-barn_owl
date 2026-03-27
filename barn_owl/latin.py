@@ -1,3 +1,7 @@
+"""
+Contains all functions related to owl latin.
+"""
+
 import string
 
 def to_owl_latin(text):
