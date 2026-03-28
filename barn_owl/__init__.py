@@ -7,5 +7,5 @@ from .latin import to_owl_latin
 __all__ = [
     "owl_wisdom",
     "owl_drawing",
-    "to_owl_latin",
+    "to_owl_latin"
 ]
