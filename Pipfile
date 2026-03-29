@@ -9,9 +9,9 @@ twine = "*"
 build = "*"
 coverage = "*"
 pytest-cov = "*"
-barnowl = {file = ".", editable = true}
+barnowl = {path = ".", editable = true}
 
 [dev-packages]
 
 [requires]
-python_version = "3.14"
+python_version = "3.13"
