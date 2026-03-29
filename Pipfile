@@ -9,7 +9,7 @@ twine = "*"
 build = "*"
 coverage = "*"
 pytest-cov = "*"
-barnowl = {path = ".", editable = true}
+barnowl = {file = ".", editable = true}
 
 [dev-packages]
 
