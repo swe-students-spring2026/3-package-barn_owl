@@ -3,15 +3,15 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "barnowl"
+name = "barn-owl"
 description = "A fun owl-themed package!"
 version = "0.0.1"
 authors = [
-  { name="Example Author", email="author@example.com" },
+  { name="Hitaansh Jain", email="hitaansh1912@gmail.com" },
 ]
 license = { file = "LICENSE" }
 readme = "README.md"
-keywords = ["python", "package", "build", "tutorial"]
+keywords = ["python", "package", "build"]
 requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -24,9 +24,6 @@ classifiers = [
 dev = ["pytest"]
 
 [project.urls]
-"Homepage" = "https://github.com/nyu-software-engineering/python-package-example"
-"Repository" = "https://github.com/nyu-software-engineering/python-package-example.git"
-"Bug Tracker" = "https://github.com/nyu-software-engineering/python-package-example/issues"
-
-[project.scripts]
-examplepackagefb1258 = "examplepackagefb1258.__main__:main"
+"Homepage" = "https://github.com/swe-students-spring2026/3-package-barn_owl"
+"Repository" = "https://github.com/swe-students-spring2026/3-package-barn_owl.git"
+"Bug Tracker" = "https://github.com/swe-students-spring2026/3-package-barn_owl/issues"

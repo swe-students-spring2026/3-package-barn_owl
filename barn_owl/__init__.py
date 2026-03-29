@@ -3,9 +3,11 @@
 from .wisdom import owl_wisdom
 from .drawing import owl_drawing
 from .latin import to_owl_latin
+from .names import owl_name_generator
 
 __all__ = [
     "owl_wisdom",
     "owl_drawing",
-    "to_owl_latin"
+    "to_owl_latin",
+    "owl_name_generator",
 ]
