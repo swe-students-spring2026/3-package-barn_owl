@@ -110,6 +110,7 @@ twine upload -r testpypi dist/*
 
 - Aaron Hui ([Github](https://github.com/aaronthmetic))
 - Uwa Igbinedion([Github](https://github.com/uwa00))
+- Antonio Jackson ([Github](https://github.com/antoniojacksnn))
 - name
 - name
 - name
