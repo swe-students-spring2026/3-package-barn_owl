@@ -52,6 +52,16 @@ print(to_owl_latin("hello world"))
 **`to_owl_latin(text) -> str`**
 Returns a string containing the translation of the input into owl latin; that is, appends 'hoo' to words starting with a non-consonant, otherwise, moves leading consonants to the end and appends 'oo'. In both cases, the translation keeps all leading and trailing punctuation as-is.
 
+### Owl Drawing
+**`owl_drawing(style) -> str`** returns a string representation of an ASCII emoji illustration of an owl based on the chosen style. Choose a style from either "wise", "cute", "spooky", "funny", "large", "duo", or "emoji". Any invalid parameters will raise a ValueError.
+
+```python
+from barn_owl import owl_drawing
+
+print(owl_drawing("cute"))
+# prints a cute owl drawing from the database
+```
+
 ## Contributing
 
 ### Prerequisites
@@ -99,7 +109,7 @@ twine upload -r testpypi dist/*
 ## Team
 
 - Aaron Hui ([Github](https://github.com/aaronthmetic))
-- name
+- Uwa Igbinedion([Github](https://github.com/uwa00))
 - name
 - name
 - name
