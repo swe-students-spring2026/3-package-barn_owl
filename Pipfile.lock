@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f0327904dffbee6035561592ddad1983d698fda3f6ee2cec4cad6472a0633f7c"
+            "sha256": "58c49c8dbc87577eaf71d8612164329fc798c111831c5dae5a68fc950c08a310"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.14"
+            "python_version": "3.13"
         },
         "sources": [
             {
@@ -18,7 +18,7 @@
     "default": {
         "barnowl": {
             "editable": true,
-            "file": "."
+            "path": "."
         },
         "build": {
             "hashes": [
