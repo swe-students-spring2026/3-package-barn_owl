@@ -10,6 +10,6 @@ __all__ = [
     "owl_wisdom",
     "owl_drawing",
     "to_owl_latin",
-    "owl_jokes"
+    "owl_jokes",
     "owl_name_generator",
 ]

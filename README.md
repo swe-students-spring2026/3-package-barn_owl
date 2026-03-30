@@ -20,6 +20,26 @@ pip install barn-owl
 
 ## Usage
 
+A full runnable demo that calls every public function is in [`examples/demo.py`](examples/demo.py). From the repo root after `pip install barn-owl` or `pipenv install --dev`:
+
+```bash
+python examples/demo.py
+```
+
+### Owl wisdom
+
+`owl_wisdom` returns a random owl-themed quip for a given theme. Pass **`topic`** as one of `"life"` (default), `"coding"`, `"friendship"`, `"nature"`, or `"food"`. Any other value raises `ValueError` with a hint listing valid topics.
+
+```python
+from barn_owl import owl_wisdom
+
+print(owl_wisdom())
+
+print(owl_wisdom(topic="coding"))
+```
+
+**`owl_wisdom(topic="life") -> str`**
+
 ### Owl Latin
 
 ```python
