@@ -40,3 +40,7 @@ class TestOwlJokesCategories:
         for category in _VALID_CATEGORIES:
             result = owl_jokes(category=category)
             assert result in _JOKES[category]
+            
+    def test_invalid_category_raises_error(self):
+        with pytest.raises(ValueError):
+            owl_jokes(category="invalid_category")
