@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "barn-owl"
 description = "A fun owl-themed package!"
-version = "0.0.2"
+version = "0.0.1"
 authors = [
   { name="Hitaansh Jain", email="hitaansh1912@gmail.com" },
   { name="Aaron Hui", email="aaronhui88@gmail.com" },

@@ -4,7 +4,7 @@
 
 A fun owl-themed package!
 
-**PyPI page:** [https://test.pypi.org/project/barn-owl/](https://test.pypi.org/project/barn-owl/)
+**PyPI page:** [https://pypi.org/project/barn-owl/](https://pypi.org/project/barn-owl/)
 
 ---
 
