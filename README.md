@@ -23,7 +23,7 @@ pip install barn-owl
 A full runnable demo that calls every public function is in [`examples/demo.py`](examples/demo.py). From the repo root after `pip install barn-owl` or `pipenv install --dev`:
 
 ```bash
-python examples/demo.py
+python -m examples.demo
 ```
 
 ### Owl wisdom
