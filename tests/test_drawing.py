@@ -1,9 +1,17 @@
+"""
+Tests for owl drawing functions.
+"""
+
 import pytest 
 
 from barn_owl import owl_drawing 
 from barn_owl.drawing import _DRAWING, _VALID_STYLES 
 
 class TestOwlDrawingBasic:
+    def test_owl_drawing_callable(self):
+        result = owl_drawing()
+        assert isinstance(result, str)
+        
     def test_returns_string(self):
         result = owl_drawing()
         assert isinstance(result, str)

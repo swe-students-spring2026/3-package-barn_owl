@@ -91,10 +91,7 @@ def owl_name_generator(style: str = "wise") -> str:
     Raises:
         ValueError: If style is not recognized.
     """
-    if not style:
-        raise ValueError(
-            f"Choose a style!"
-        )
+
     if style not in _VALID_STYLES:
         raise ValueError(
             f"Unknown style: {style!r}. "

@@ -7,12 +7,16 @@ name = "barn-owl"
 description = "A fun owl-themed package!"
 version = "0.0.1"
 authors = [
-  { name="Hitaansh Jain", email="hitaansh1912@gmail.com" },
+  { name="Aaron Hui" },
+  { name="Uwa Igbinedion" },
+  { name="Antonio Jackson" },
+  { name="Hitaansh Jain" },
+  { name="James Huang" },
 ]
 license = { file = "LICENSE" }
 readme = "README.md"
 keywords = ["python", "package", "build"]
-requires-python = ">=3.7"
+requires-python = ">=3.11"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Intended Audience :: Education",
@@ -21,7 +25,7 @@ classifiers = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = ["pytest", "build", "twine"]
 
 [project.urls]
 "Homepage" = "https://github.com/swe-students-spring2026/3-package-barn_owl"

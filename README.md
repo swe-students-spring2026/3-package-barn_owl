@@ -23,12 +23,12 @@ pip install barn-owl
 A full runnable demo that calls every public function is in [`examples/demo.py`](examples/demo.py). From the repo root after `pip install barn-owl` or `pipenv install --dev`:
 
 ```bash
-python examples/demo.py
+python -m examples.demo
 ```
 
 ### Owl wisdom
 
-`owl_wisdom` returns a random owl-themed quip for a given theme. Pass **`topic`** as one of `"life"` (default), `"coding"`, `"friendship"`, `"nature"`, or `"food"`. Any other value raises `ValueError` with a hint listing valid topics.
+**`owl_wisdom(topic="life") -> str`** returns a random owl-themed quip for a given theme. Pass **`topic`** as one of `"life"` (default), `"coding"`, `"friendship"`, `"nature"`, or `"food"`. Any other value raises `ValueError` with a hint listing valid topics.
 
 ```python
 from barn_owl import owl_wisdom
@@ -38,9 +38,10 @@ print(owl_wisdom())
 print(owl_wisdom(topic="coding"))
 ```
 
-**`owl_wisdom(topic="life") -> str`**
-
 ### Owl Latin
+
+**`to_owl_latin(text) -> str`**
+returns a string containing the translation of the input into owl latin; that is, appends 'hoo' to words starting with a non-consonant, otherwise, moves leading consonants to the end and appends 'oo'. In both cases, the translation keeps all leading and trailing punctuation as-is.
 
 ```python
 from barn_owl import to_owl_latin
@@ -48,9 +49,6 @@ from barn_owl import to_owl_latin
 print(to_owl_latin("hello world"))
 # Prints "ellohoo orldwoo"
 ```
-
-**`to_owl_latin(text) -> str`**
-Returns a string containing the translation of the input into owl latin; that is, appends 'hoo' to words starting with a non-consonant, otherwise, moves leading consonants to the end and appends 'oo'. In both cases, the translation keeps all leading and trailing punctuation as-is.
 
 ### Owl Drawing
 
@@ -108,19 +106,19 @@ This installs all dependencies and the package itself in editable mode.
 ### Run tests
 
 ```bash
-python -m pytest
+pipenv run python -m pytest
 ```
 
 ### Build the package
 
 ```bash
-python -m build
+pipenv run python -m build
 ```
 
 ### Publish to PyPI (maintainers only)
 
 ```bash
-twine upload -r testpypi dist/*
+twine upload dist/*
 ```
 
 ### Developer workflow
@@ -134,8 +132,8 @@ twine upload -r testpypi dist/*
 
 ## Team
 
-- Aaron Hui ([Github](https://github.com/aaronthmetic))
-- Uwa Igbinedion([Github](https://github.com/uwa00))
-- Antonio Jackson ([Github](https://github.com/antoniojacksnn))
-- Hitaansh Jain ([Github](https://github.com/hitaanshjain))
-- James Huang ([Github](https://github.com/JamesHuang2004))
+- [Aaron Hui](https://github.com/aaronthmetic)
+- [Uwa Igbinedion](https://github.com/uwa00)
+- [Antonio Jackson](https://github.com/antoniojacksnn)
+- [Hitaansh Jain](https://github.com/hitaanshjain)
+- [James Huang](https://github.com/JamesHuang2004)
