@@ -63,6 +63,18 @@ print(owl_drawing("cute"))
 # prints a cute owl drawing from the database
 ```
 
+### Owl Jokes
+
+**`owl_jokes(category="python") -> str`** returns a random owl-themed joke from the specified category. Choose a category from `"python"` (default), `"programming"`, or `"cold"`. Any other value raises `ValueError` with a hint listing valid categories.
+
+```python
+from barn_owl import owl_jokes
+
+print(owl_jokes())                    # defaults to "python"
+print(owl_jokes(category="programming"))
+# prints a programming-related owl joke
+```
+
 ### Owl Name Generator
 
 **`owl_name_generator(style="wise") -> str`** returns a randomly generated owl name for the given style. Choose from `"wise"` (default), `"spooky"`, `"cute"`, or `"funny"`. Any other value raises `ValueError` with a hint listing valid styles.
