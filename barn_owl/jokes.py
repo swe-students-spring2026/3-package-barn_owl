@@ -3,8 +3,9 @@ Contains all functions related to owl jokes.
 """
 
 import random
+from typing import Dict, List
 
-_JOKES: dict[str, list[str]] = {
+_JOKES: Dict[str, List[str]] = {
     "python": [
         "Why did the Python programmer break up with their partner? They needed more space!",
         "What do you call a Python developer who loves coffee? A brew-tiful coder!",
