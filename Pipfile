@@ -11,6 +11,7 @@ coverage = "*"
 pytest-cov = "*"
 barnowl = {file = ".", editable = true}
 exceptiongroup = "*"
+typing-extensions = "*"
 
 [dev-packages]
 
