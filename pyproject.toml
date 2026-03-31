@@ -8,11 +8,15 @@ description = "A fun owl-themed package!"
 version = "0.0.1"
 authors = [
   { name="Hitaansh Jain", email="hitaansh1912@gmail.com" },
+  { name="Aaron Hui", email="aaronhui88@gmail.com" },
+  { name="Antonio Jackson", email="aantoniojacksonn@gmail.com" },
+  { name="name", email="email@email.com" },
+  { name="name", email="email@email.com" },
 ]
 license = { file = "LICENSE" }
 readme = "README.md"
 keywords = ["python", "package", "build"]
-requires-python = ">=3.7"
+requires-python = ">=3.11"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Intended Audience :: Education",

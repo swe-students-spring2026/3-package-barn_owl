@@ -1,3 +1,7 @@
+"""
+Contains all functions related to owl drawing. 
+"""
+
 import random
 
 _DRAWING: dict[str, list[str]] = {
