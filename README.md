@@ -28,7 +28,7 @@ python examples/demo.py
 
 ### Owl wisdom
 
-`owl_wisdom` returns a random owl-themed quip for a given theme. Pass **`topic`** as one of `"life"` (default), `"coding"`, `"friendship"`, `"nature"`, or `"food"`. Any other value raises `ValueError` with a hint listing valid topics.
+**`owl_wisdom(topic="life") -> str`** returns a random owl-themed quip for a given theme. Pass **`topic`** as one of `"life"` (default), `"coding"`, `"friendship"`, `"nature"`, or `"food"`. Any other value raises `ValueError` with a hint listing valid topics.
 
 ```python
 from barn_owl import owl_wisdom
@@ -38,9 +38,10 @@ print(owl_wisdom())
 print(owl_wisdom(topic="coding"))
 ```
 
-**`owl_wisdom(topic="life") -> str`**
-
 ### Owl Latin
+
+**`to_owl_latin(text) -> str`**
+returns a string containing the translation of the input into owl latin; that is, appends 'hoo' to words starting with a non-consonant, otherwise, moves leading consonants to the end and appends 'oo'. In both cases, the translation keeps all leading and trailing punctuation as-is.
 
 ```python
 from barn_owl import to_owl_latin
@@ -48,9 +49,6 @@ from barn_owl import to_owl_latin
 print(to_owl_latin("hello world"))
 # Prints "ellohoo orldwoo"
 ```
-
-**`to_owl_latin(text) -> str`**
-Returns a string containing the translation of the input into owl latin; that is, appends 'hoo' to words starting with a non-consonant, otherwise, moves leading consonants to the end and appends 'oo'. In both cases, the translation keeps all leading and trailing punctuation as-is.
 
 ### Owl Drawing
 
