@@ -4,7 +4,7 @@
 
 A fun owl-themed package!
 
-**PyPI page:** [https://test.pypi.org/project/barn-owl/](https://test.pypi.org/project/barn-owl/)
+**PyPI page:** [https://pypi.org/project/barn-owl/](https://pypi.org/project/barn-owl/)
 
 ---
 
@@ -106,19 +106,19 @@ This installs all dependencies and the package itself in editable mode.
 ### Run tests
 
 ```bash
-python -m pytest
+pipenv run python -m pytest
 ```
 
 ### Build the package
 
 ```bash
-python -m build
+pipenv run python -m build
 ```
 
 ### Publish to PyPI (maintainers only)
 
 ```bash
-twine upload -r testpypi dist/*
+twine upload dist/*
 ```
 
 ### Developer workflow
@@ -132,8 +132,8 @@ twine upload -r testpypi dist/*
 
 ## Team
 
-- Aaron Hui ([Github](https://github.com/aaronthmetic))
-- Uwa Igbinedion([Github](https://github.com/uwa00))
-- Antonio Jackson ([Github](https://github.com/antoniojacksnn))
-- Hitaansh Jain ([Github](https://github.com/hitaanshjain))
-- James Huang ([Github](https://github.com/JamesHuang2004))
+- [Aaron Hui](https://github.com/aaronthmetic)
+- [Uwa Igbinedion](https://github.com/uwa00)
+- [Antonio Jackson](https://github.com/antoniojacksnn)
+- [Hitaansh Jain](https://github.com/hitaanshjain)
+- [James Huang](https://github.com/JamesHuang2004)
