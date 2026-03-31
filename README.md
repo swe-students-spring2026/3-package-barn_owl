@@ -138,4 +138,4 @@ twine upload -r testpypi dist/*
 - Uwa Igbinedion([Github](https://github.com/uwa00))
 - Antonio Jackson ([Github](https://github.com/antoniojacksnn))
 - Hitaansh Jain ([Github](https://github.com/hitaanshjain))
-- name
+- James Huang ([Github](https://github.com/JamesHuang2004))
