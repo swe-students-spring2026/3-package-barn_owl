@@ -7,7 +7,7 @@ from typing import Dict, List
 
 _JOKES: Dict[str, List[str]] = {
     "python": [
-        "Why did the Python programmer break up with their partner? They needed more space!",
+        "Why did the Python programmer break up usually They needed more space!",
         "What do you call a Python developer who loves coffee? A brew-tiful coder!",
         "Why was the Python data scientist bad at relationships? They kept getting lost in their data frames!",
         "How does a Python programmer party? They throw exceptions!",
@@ -21,11 +21,12 @@ _JOKES: Dict[str, List[str]] = {
         "Why was the JavaScript developer sad? Because he didn't know how to 'null' his feelings.",
     ],
     "cold": [
-        "Why don't scientists trust atoms? Because they make up everything!",
+        "What is a Barn Owl’s favourite subject at school? Owlgebra!",
+        "What do you call an owl in winter? A snowl.",
         "What do you call fake spaghetti? An impasta!",
-        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "What’s an owl’s favourite band? The WHO!",
         "What do you call a bear with no teeth? A gummy bear!",
-        "Why can't you give Elsa a balloon? Because she will let it go.",
+        "What do you call an owl with a low voice? A growl!"
     ],
 }
 
