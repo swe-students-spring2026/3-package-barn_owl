@@ -10,6 +10,7 @@ build = "*"
 coverage = "*"
 pytest-cov = "*"
 barnowl = {file = ".", editable = true}
+exceptiongroup = "*"
 
 [dev-packages]
 
