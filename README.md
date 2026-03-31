@@ -62,6 +62,19 @@ print(owl_drawing("cute"))
 # prints a cute owl drawing from the database
 ```
 
+### Owl Name Generator
+
+**`owl_name_generator(style="wise") -> str`** returns a randomly generated owl name for the given style. Choose from `"wise"` (default), `"spooky"`, `"cute"`, or `"funny"`. Any other value raises `ValueError` with a hint listing valid styles.
+
+```python
+from barn_owl import owl_name_generator
+
+print(owl_name_generator())               # defaults to "wise"
+print(owl_name_generator(style="spooky")) 
+# prints a spooky owl name
+
+```
+
 ## Contributing
 
 ### Prerequisites
@@ -111,6 +124,6 @@ twine upload -r testpypi dist/*
 - Aaron Hui ([Github](https://github.com/aaronthmetic))
 - Uwa Igbinedion([Github](https://github.com/uwa00))
 - Antonio Jackson ([Github](https://github.com/antoniojacksnn))
+- Hitaansh Jain ([Github](https://github.com/hitaanshjain))
 - name
-- name
-- name
+
